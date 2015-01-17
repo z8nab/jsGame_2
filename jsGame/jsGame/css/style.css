@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+html {overflow-x: hidden;}
+	
+.cbody {
+background-color:rgba(253,111,113,1.00);
+	/*background-image: url(../pics/2-782581-170c009d83c91e87d0681ae506e3b89b.png);*/
+
+}
+.cbody .content {
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clrfix {
+	clear: both;
+}
+.menu {
+	margin-right: 10%;
+	margin-top:50px;
+}
+.gm {
+	margin-top: 30px;
+
+}
+.mar{
+    margin-left:35px;
+}
+.slids{
+  margin-left:25%; 
+}
+.foot{
+position:fixed;
+bottom:0;
+}
+.copyright{
+	width:20%;
+	color:rgba(255,255,255,1.00);
+	font-weight: bold;
+	text-shadow:5px 5px 5px #000;
+	font-size:15px;
+	margin-left:100px;}
+	.face{
+	flaot:left;
+	margin-left:1150px;}
+	.logo{
+	margin-left:30px;
+	margin-top:50px;}
+/*  About us page style */
+.aboutpage
+{
+	width: 885px;
+	height: 520px;
+	border-radius:10px;
+	margin-top:150px;
+	margin-left:220px;
+	background-color: rgba(255,255,255,0.50);
+}
+.aboutpage #accordion 
+{
+	width: 350px;
+	height:500px;
+	margin-left:30px;
+	float:left;
+	border: 2px  #CCCCCC;
+	margin-top:40px;
+}
+#accordion  p
+{
+	 margin:3px;
+	 font-size:15px;
+	 color:rgba(53,53,53,1.00); 
+}
+#accordion h3
+{
+	font-style: oblique;
+	font-size: large;
+	height: 30px;
+	border: 2px solid #CCCCCC;
+	padding-left: 55px;
+	padding-top: 10px;
+	color: rgba(117,108,171,1.00);
+	background-color: rgba(244,234,234,1.00);
+	}
+	.clear {clear:both;}
+	.findteam
+	  {
+		float:left;
+	    height: 500px;
+	    width:300px;
+	    margin-left:100px;
+	    margin-top:22px;
+	
+		}
+		.findteam img
+		 {
+	      margin-left: 75px;
+	      margin-top: 20px;
+	      border: 1px dotted rgba(31,31,31,1.00);
+	      width:300px;
+	      height:300px;
+		}
+		.findteam .findus h2
+		{
+		    margin-left:70px;
+			margin-top:40px;
+			font-style:oblique;
+	        font-size:large;
+	       	color: rgba(117,108,171,1.00);
+	        background-color: rgba(244,234,234,1.00);
+	        border-radius: 10px;
+	        height: 30px;
+	        border: 2px solid #CCCCCC;
+	        padding-left:55px;
+	        padding-top:10px;
+		    width:240px;
+		}
+		/* Contact us page  style*/
+.contactpage{
+	position: absolute;
+	top:200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: rgba(73,76,232,1.00);
+}
+	
+ 
+ .contactpage .contact h1 {
+	color:rgba(255,255,255,1.00);
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 300px;
+	position: relative;
+	left: 100px;
+}
+
+ .contactpage .contact h4 {
+	color:rgba(26,26,26,0.8);
+	width:300px;
+	position:relative;
+	left:100px;
+}
+.contactpage .contact a .socialpic2 {
+	position:relative;
+	left:105px;
+	top:10px;
+	
+}
+.contactpage .contact a .socialpic3 {
+	position:relative;
+	left:105px;
+	top:15px;
+	
+}
+.socialimage
+{
+	position: absolute;
+	left: 600px;
+	top: 70px;
+	border: 1px dotted rgba(13,13,13,1.00);
+	}
+	.line{
+		width:1000px;
+	    position:absolute;
+	    left:180px;
+		height:0.3px;
+	    top:650px;
+		color:rgba(95,95,95,1.00);
+	}
+.mainform{
+	position:absolute;
+	width:100%;
+	left:150px;
+	top:700px;
+	}
+.data
+  {
+	position:relative;
+	width:300px;
+	color:rgba(255,255,255,1.00);
+	left:15px;
+	top:5px;
+	}
+.mainform .name{
+	position: relative;
+	width: 1000px;
+	left: 15px;
+	top: 5px;
+	height: 40px;
+	border: 1px solid rgba(46,46,46,1.00);
+	border-radius: 5px;
+	padding-left:20px;
+	
+}
+.mainform .mail{
+	position: relative;
+	width:1000px;
+	left:15px;
+	top:10px;
+	height: 40px;
+	border: 1px solid rgba(46,46,46,1.00);
+	border-radius: 5px;
+	padding-left:20px;
+	
+}
+.mainform .message{
+	position: relative;
+	left:15px;
+	top:15px;
+	width:1000px;
+	height:90px;
+	border: 1px solid rgba(46,46,46,1.00);
+	border-radius: 5px;
+	padding-left:20px;
+	padding-top:20px;
+	
+}
+.mainform .submit{
+	position: relative;
+	top: 55px;
+	width: 130px;
+	height: 40px;
+	border: 1px solid rgba(46,46,46,1.00);
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: rgba(7,7,7,1.00);
+	background-color: rgba(131,142,251,1.00);
+}
+/* Thank you style */
+	.thankcontent{
+	float: left;
+	margin-top: 150px;
+	margin-left: 150px;
+	width: 300px;
+	color: rgba(100,136,252,1.00);
+	font-size: 18px;
+		}
+	.thankcontent .thankphoto
+	{
+	   float:left;
+	   margin-left:460px;
+	   margin-top:-100px;}
+
+
+
+/* game content style*/
+   .gameContent{
+  margin-top: 150px;
+	margin-left: 430px;
+   }

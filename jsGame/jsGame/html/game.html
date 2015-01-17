@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Game</title>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<!--game -->
+
+ <script src="../js/Scripts/jquery-1.10.1.min.js"></script>
+ <script src="../js/Scripts/jquery-migrate-1.2.1.min.js"></script>
+<style>
+	   /*  div {
+            background-color: #ff66cc;
+            width: 100px;
+            border: 1px solid #9933cc;
+            color: white;
+        }*/
+        #img1 {
+            position: absolute;
+            top:350px;
+            left:420px;
+            right: 50px;
+            width: 90px;
+            height: 90px;
+            margin: 5px;
+        }
+        .bgimg {
+		
+    background-image: url(../pics/23.jpg);
+    height: 400px; width: 490px;
+    </style>
+	
+	<script>
+		var x;
+		var num=document.getElementById('step_num');
+	    $(document).ready(function () {
+		 $("#button1").click(function(){
+			
+				//setInterval("alert('hellllooo');",1000); 
+			$("#img1").animate({ "left": "-=20px" }, "slow");
+		
+  });
+});
+$(document).ready(function () {
+		 $("#button2").click(function(){
+			$("#img1").animate({ "top": "+=20px" }, "slow");
+			  });
+              });
+         $(document).ready(function () {
+		 $("#button3").click(function(){
+			$("#img1").animate({ "top": "-=20px" });
+			  });
+              }); 
+              $(document).ready(function () {
+		 $("#button4").click(function(){
+			$("#img1").animate({ "left": "+=20px" }, "slow"); 
+			});
+              });   
+              
+          
+         function code(e)
+		{
+		 if(x==1)
+		
+		  alert('move forwarde');
+		
+		 else if(x==2)
+		 
+		  alert('Move backward');
+		
+		 else if(x==3)
+		 
+		 alert('Move right');
+		
+		 else if(x==4)
+		
+		 alert('Move left');
+		 
+		 else
+		
+		  alert('you have not play');
+		 
+		} 
+         
+ /* "+document.getElementById('step_num')+"
+    style="background:#98bf21;height:500px;width:500px;position:absolute;"
+			 
+			  */
+//<input type="button" id="button1" value="animate_left"/>
+//<button>animate_left</button>
+	</script>
+
+<!--  end game -->
+
+</head>
+
+<body class="cbody" onLoad="MM_preloadImages('../pics/homeA.png','../pics/iconA_game.png','../pics/2Team_icon.png','../pics/contact2.png','../pics/twitter.png','../pics/facebook.png')">
+
+
+<header class="head">
+   <div class="logo left"> <img src="../pics/code.png" width="140px" height="80px"></div>
+  <div class="menu right">
+  <span class="mar"><a href="home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../pics/homeA.png',1)"><img src="../pics/home.png" alt="" width="100" height="80" id="Image1"></a></span>
+  
+  <span class="mar"><a href="game.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../pics/iconA_game.png',1)"><img src="../pics/icon_game.png" alt="" width="100" height="80" id="Image2"></a></span>
+  
+  <span class="mar"> <a href="About.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../pics/2Team_icon.png',1)"><img src="../pics/Team_icon.png" alt="" width="100" height="80" id="Image3"></a> </span>
+  
+ <span class="mar"> <a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../pics/contact2.png',1)"><img src="../pics/contact.png" alt="" width="100" height="80" id="Image4"></a> </span> </div>
+  <div class="clrfix"></div>
+</header>
+
+<!--game -->
+
+<div class="gameContent">
+
+<input type="image" src="../pics/game/4.jpg" id="button1" width="120" height="50" onClick="x=4;" value="animate_left"/>
+	<input type="image" src="../pics/game/2.jpg" id="button2" width="120" height="50" onClick="x=2;" value="animate_down"/>
+	<input type="image" src="../pics/game/1.jpg" id="button3" width="120" height="50" onClick="x=1;" value="animate_top"/>
+	<input type="image" src="../pics/game/3.jpg" id="button4" width="120" height="50" onClick="x=3;" value="animate_right"/>
+	<input type ="button" value="Show Code" onClick="code(this);"/>
+	<div class="bgimg">
+	<img id="img1" src="../pics/1.gif"/>
+	</div>
+</div>
+<!--  end game -->
+
+
+</br></br></br></br></br></br></br></br>
+
+<footer class="foot">
+
+ <div class="left copyright"> copyright&copy;FADZ</div>
+ 
+ 
+ <div class="face">
+  <span> <a href="http://www.twitter.com"><img src="../pics/twitter.png" alt="" width="30" height="30"></a></span>
+  
+  <span><a href="http://www.facebook.com" ><img src="../pics/facebook.png" alt="" width="35" height="35" ></a></span> 
+</div>
+
+<div class="clrfix"></div>
+
+</footer>
+
+
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
